@@ -24,8 +24,6 @@ sudo apt-get install snort
 sudo apt-get install vim
 cd /etc/snort/
 用 sudo wget 下載conf黨
-sudo vim attack.conf
-DHCP_ 改成attack
 再去
 cd /etc/rules/
 用 sudo wget 下載rules黨
