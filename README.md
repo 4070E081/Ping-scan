@@ -14,3 +14,24 @@ nmap -sP 192.168.1.1 --disable-arp-ping
 ```
 https://www.hackingarticles.in/detect-nmap-scan-using-snort/
 ```
+
+
+過程
+```
+打開UB
+sudo apt-get install net-tools
+sudo apt-get install snort
+sudo apt-get install vim
+cd /etc/snort/
+用 sudo wget 下載conf黨
+sudo vim attack.conf
+DHCP_ 改成attack
+再去
+cd /etc/rules/
+用 sudo wget 下載rules黨
+sudo vim attack.rules
+加入上方的規則黨
+
+打開kali
+用上面的指吝測試
+```
